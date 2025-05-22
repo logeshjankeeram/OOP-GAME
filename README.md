@@ -34,6 +34,8 @@ Game Mechanics
 - ESC: Pause game
 - Enter: Start game
 
+Note due to me running the game from mac- i coudl not test it from terminal. The game has to be package as .app to run or run directly from finder
+
 ## Project Structure
 - `Source/`: Contains all source code files
   - `Headers/`: Header files

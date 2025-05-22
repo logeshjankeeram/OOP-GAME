@@ -1,75 +1,42 @@
-# Pacman Game
+Maze game
 
-A classic Pacman game implementation in C++ using SFML library. This project was developed as part of an Object-Oriented Programming course at Klaipeda University.
 
-## Features
+added the following features to the game:
 
-- Classic Pacman gameplay mechanics
-- Multiple levels with increasing difficulty
-- Ghost AI with different behaviors
-- Sound effects and background music
-- Score tracking system
-- Lives system
-- Power pellets and energizers
+Object-Oriented Design
 
-## Requirements
+* Apply encapsulation (use private, protected, public properly).
+* Demonstrate polymorphism (e.g., virtual act() for different actor behavior).
+2. SFML Integration
+3. Score System
+*Track the player's score in the game.
+* Implement file input/output to save and load high scores using basic file handling.
 
-- C++ compiler (g++ or clang++)
-- CMake (version 3.0 or higher)
-- SFML library (version 2.5 or higher)
-
-## Building the Project
-
-1. Clone the repository:
-```bash
-git clone https://github.com/logeshjankeeram/OOP-GAME.git
-cd OOP-GAME
-```
-
-2. Create a build directory and navigate to it:
-```bash
-mkdir build
-cd build
-```
-
-3. Generate build files using CMake:
-```bash
-cmake ..
-```
-
-4. Build the project:
-```bash
-make
-```
-
-## Running the Game
-
-After building, you can run the game from the build directory:
-```bash
-./MazeRunner
-```
+Game Mechanics
+* Player movement with constraints
+* Enemies spawning
+* Some form of interaction: avoiding
+5. Collision Handling
+6. Game Loop
+* Keep the game running with smooth animations and framerate handling.
+* Ability to restart or exit the game cleanly.
+7. Visual Feedback : game flashes when player dies
+* Use basic graphics and optional sound effects (bonus).
+* Display score, lives, or level info on screen.
+• Level system or increasing difficulty.
+• Animated sprites.
+• Sound effects using sf::Sound.
+• Menu system or pause functionality.
 
 ## Controls
 
-- Arrow keys: Move Pacman
+- WASD to move
 - ESC: Pause game
-- Space: Start game
-- R: Restart level
+- Enter: Start game
 
 ## Project Structure
-
 - `Source/`: Contains all source code files
   - `Headers/`: Header files
   - `Resources/`: Game resources (images, sounds, levels)
 - `CMakeLists.txt`: Build configuration
 - `Resources/`: Game assets
-
-## Credits
-
-- Developed by: Logesh Jankeeram
-- Course: Object-Oriented Programming
-- University: Klaipeda University
-
-## License
-
-This project is open source and available under the MIT License. 
